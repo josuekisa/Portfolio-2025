@@ -18,8 +18,8 @@ const About = () => {
       <h1 class="text-3xl font-bold">À propos de moi</h1>
       <h2 class="text-xl text-yellow-400">Jeune Développeur passionné à la recherche d'une alternance</h2>
       <p class="mt-4">
-        Actuellement développeur à l'Université de Paris 13, je recherche une alternance pour la rentrée
-        2025-2026 afin de préparer un master (école en cours de sélection).
+      Actuellement facteur au sein de La Poste, je suis à la recherche d'une alternance dans le domaine du développement web 
+      pour la rentrée 2025-2026, afin de préparer un master (école en cours de sélection).
       </p>
       <p class="mt-2">
         Titulaire d’un Bac +3 en Conception de Systèmes d’Informations, je suis passionné par le développement
@@ -30,11 +30,16 @@ const About = () => {
         divers frameworks et bibliothèques. Je me spécialise dans le développement web full-stack et souhaite
         évoluer dans une équipe dynamique.
       </p>
+      <p className='mt-2' >
+      Sur mon portfolio, les visiteurs pourront suivre les projets que je réaliserai tout au long de cette année. 
+      Je n'ai pas encore d'école validée,mais je suis activement en recherche de la formation qui correspondra
+       à mes ambitions professionnelles.
+      </p>
       <div class=" bg-gray-800 text-white text-center mt-3 py-6">
   <h2 class="text-2xl font-bold mb-4">Intéressé par mon profil ?</h2>
   <a
     href="cv.pdf"
-    class="bg-yellow-400 text-dark font-bold py-2 px-6 rounded hover:bg-yellow-300"
+    class="bg-yellow-500 text-dark font-bold py-2 px-6 rounded hover:bg-yellow-400"
     download
   >
     Télécharger mon CV

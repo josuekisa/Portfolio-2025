@@ -21,7 +21,7 @@ const Contact = () => {
         <label htmlFor="message" className='text-slate-200'>Message</label>
         <textarea id="message" name="message" required className=' mb-4 sm:w-96'></textarea>
 
-        <input type="submit" value="Envoyer" className=' inline-block  bg-yellow-400 rounded-full p-4 '/>
+        <input type="submit" value="Envoyer" className=' inline-block text-slate-100 bg-yellow-500 hover:bg-yellow-400 rounded-lg p-4 '/>
        </form>
      
      

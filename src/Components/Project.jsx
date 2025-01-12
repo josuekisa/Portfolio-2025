@@ -13,7 +13,7 @@ const Project = () => {
 
     </div>
    </div>
-   <button className=' bg-yellow-500 rounded-full  mt-6 text-slate-950 text-xl p-4 hover:bg-yellow-400'> Voir mes autres projets 
+   <button className=' bg-yellow-500 rounded-lg  mt-6 text-slate-100 text-xl p-4 hover:bg-yellow-400'> Voir mes autres projets 
 
    </button>
     </div>
