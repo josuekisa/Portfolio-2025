@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { TiThMenu } from "react-icons/ti";
 import { RiCloseLargeFill } from "react-icons/ri";
+import Logo from '../assets/jk.svg';
 
 
 
@@ -8,11 +9,11 @@ export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
  
   return (
-    <div className=" bg-slate-950Z fixed top-0 z-0 right-0 left-0 shadow-black">
+    <div className=" bg-slate-950 fixed top-0 z-50 right-0 left-0 shadow-lg">
       <div className="flex justify-between items-center px-4 ">
         {/* Logo */}
         <div className="text-white text-xl">
-          logo
+          <img src={Logo} alt="pdp" className='w-20 bg-slate-950' />
         </div>
 
         {/* Navigation normale (visible uniquement au-dessus de 768px) */}

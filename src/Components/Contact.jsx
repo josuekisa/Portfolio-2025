@@ -1,9 +1,12 @@
 import React from 'react'
+import { FaArrowAltCircleUp } from "react-icons/fa";
+
 
 
 const Contact = () => {
   return (
     <div id='contact' className=' flex flex-col justify-center items-center   bg-slate-950 w-full h-screen '>
+      
       <h1 className='text-6xl font-bold text-white text-center mb-10'>Contactez-moi</h1>
       
       <div className='text-white text-center text-xl'>Pour toute demande de contact, merci de remplir ce formulaire.</div>
@@ -24,11 +27,16 @@ const Contact = () => {
         <input type="submit" value="Envoyer" className=' inline-block text-slate-100 bg-yellow-500 hover:bg-yellow-400 rounded-lg p-4 '/>
        </form>
      
-     
+     <div>
+
+     </div>
      
      
       </div>
-
+    
+     
+      <a href='#home'><FaArrowAltCircleUp className='bg-purple-600 w-36 absolute  '></FaArrowAltCircleUp> </a>
+    
     </div>
   )
 }

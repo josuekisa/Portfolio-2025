@@ -11,8 +11,8 @@ import csharp from '../assets/csharp.svg';
 
 const Skills = () => {
   return (
-    <div id='skills' className='flex  flex-col justify-center items-center bg-slate-950 w-full h-screen mx-auto'>
-        <h1 className='font-bold text-slate-100 text-6xl sm:text-5xl   '>Compétences</h1>
+    <div id='skills' className='flex  flex-col justify-center items-center bg-slate-950 w-full h-screen mx-auto '>
+        <h1 className='font-bold text-slate-100 text-4xl sm:text-5xl text-center   '>Compétences</h1>
         <p className='text-white text-lg mb-4 mt-4 sm:ml-3'>Voici compétences que j'ai pu acquérir durant mes passions différente formations.</p>
         <div className='grid grid-cols-2 sm:grid-cols-4  gap-4 sm:gap-6 p-6 size-1/3 sm:size-1/2  '>
             <div className='size-full  border-solid rounded-lg shadow shadow-black hover:shadow-slate-700 '>
@@ -45,7 +45,7 @@ const Skills = () => {
             </div>
             <div className=' border-solid rounded-lg shadow shadow-black hover:shadow-slate-700'>
             <img src={symfony} alt="symfony" className="  mt-3  mx-auto border-solid " /> 
-            <p className='text-white text-center text-xs sm:text-lg'>Symfony</p>
+            <p className='text-white text-center text-xs sm:text-lg' >Symfony</p>
             </div>
         </div>
     </div>
