@@ -3,36 +3,36 @@ import PDP from '../assets/PDP-r.png'
 
 const About = () => {
   return (
-    <div id='about'className=' p-6 bg-slate-950 h-screen w-full text-white   '>
-  <div class="container mx-auto flex flex-col sm:flex-row items-center sm:items-start gap-6">
+    <div id='about'className=' p-6 bg-slate-950 h-screen w-full text-white '>
+    <div class="container mx-auto flex flex-col sm:flex-row items-center sm:items-start gap-6">
   
     <div class=" sm:w-1/3">
       <img
         src={PDP} 
         alt="Pdp"
-        class="rounded-full w-full max-w-[150px] mx-auto sm:max-w-full"
+        class="rounded-full w-full max-w-[90px] mx-auto sm:max-w-full"
       />
     </div>
   
     <div class="text-container sm:w-2/3 text-center sm:text-left">
-      <h1 class="text-3xl font-bold">À propos de moi</h1>
-      <h2 class="text-xl text-yellow-400">Jeune Développeur passionné à la recherche d'une alternance</h2>
-      <p class="mt-4">
-      Actuellement facteur au sein de La Poste, je suis à la recherche d'une alternance dans le domaine du développement web 
-      pour la rentrée 2025-2026, afin de préparer un master (école en cours de sélection).
+      <h1 class=" font-raleway text-2xl sm:text-3xl font-bold">À propos de moi</h1>
+      <h2 class=" text-xs sm:text-xl text-yellow-400">Jeune Développeur passionné à la recherche d'une alternance</h2>
+      <p class="mt-4 text-xs sm:text-xl ">
+      Actuellement facteur au sein du groupe La Poste, je suis à la recherche d'une alternance dans le domaine du développement web 
+      pour la rentrée 2025-2026 afin de préparer un master (école en cours de sélection).
       </p>
-      <p class="mt-2">
+      <p class="mt-2 text-xs sm:text-xl">
         Titulaire d’un Bac +3 en Conception de Systèmes d’Informations, je suis passionné par le développement
         d’applications web et mobiles responsives.
       </p>
-      <p class="mt-2">
-        Mes compétences incluent React, Next.js, Tailwind CSS, Node.js et Express.js, avec une expérience sur
+      <p class="mt-2 text-xs sm:text-xl">
+        Mes compétences incluent : React, Next.js, Tailwind CSS, Node.js et Express.js, avec une expérience sur
         divers frameworks et bibliothèques. Je me spécialise dans le développement web full-stack et souhaite
-        évoluer dans une équipe dynamique.
+        évoluer dans une équipe dynamique et passionnée.
       </p>
-      <p className='mt-2' >
+      <p className='mt-2 text-xs sm:text-xl' >
       Sur mon portfolio, les visiteurs pourront suivre les projets que je réaliserai tout au long de cette année. 
-      Je n'ai pas encore d'école validée,mais je suis activement en recherche de la formation qui correspondra
+      Je suis, pour le moment, activement à la recherche de la formation qui correspondra
        à mes ambitions professionnelles.
       </p>
       <div class=" bg-gray-800 text-white text-center mt-3 py-6">
