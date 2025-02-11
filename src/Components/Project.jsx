@@ -1,5 +1,9 @@
 import React from 'react'
 import Black from '../assets/black-bg.jpg';
+import Screen from '../assets/screen1.jpg';
+
+
+
 const Project = () => {
   return (
     <div id='project' className='flex flex-col justify-center items-center bg-slate-950 w-full h-screen'>
@@ -7,7 +11,8 @@ const Project = () => {
    <div>
     
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 mt-6'>
-      <img src={Black} alt="bg" className='hover:blur w-64 sm:w-96' />
+    
+      <a href="https://www.faixa-branca.site/">  <img src={Screen} alt="bg" className='hover:blur w-64 sm:w-96' /> </a>
       <img src={Black} alt="bg" className='hover:blur  w-64 sm:w-96' />
       <img src={Black} alt="bg"className='hover:blur  w-64 sm:w-96'  />
 
